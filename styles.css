@@ -1,0 +1,372 @@
+#piano {
+
+    border-collapse: separate;
+    border-spacing: 0 15px;
+    position: relative;
+    display: inline-block;
+    top: 50%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+
+#c {
+    width: 60px;
+    height: 250px;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 5px;
+    position: absolute;
+    left: 405px;
+    top: 250px;
+    cursor: pointer;
+
+}
+
+#c1 {
+    width: 35px;
+    height: 150px;
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    position: absolute;
+    left: 455px;
+    top: 250px;
+    background-color: black;
+    z-index: 3;
+}
+
+#d {
+    width: 60px;
+    height: 250px;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 5px;
+    position: absolute;
+    left: 475px;
+    top: 250px;
+    cursor: pointer;
+}
+
+#d1 {
+    width: 35px;
+    height: 150px;
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    position: absolute;
+    left: 525px;
+    top: 250px;
+    background-color: black;
+    z-index: 3;
+}
+
+#e {
+    width: 60px;
+    height: 250px;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 5px;
+    position: absolute;
+    left: 545px;
+    top: 250px;
+    cursor: pointer;
+}
+
+#f {
+    width: 60px;
+    height: 250px;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 5px;
+    position: absolute;
+    left: 615px;
+    top: 250px;
+    cursor: pointer;
+}
+
+#f1 {
+    width: 35px;
+    height: 150px;
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    position: absolute;
+    left: 665px;
+    top: 250px;
+    background-color: black;
+    z-index: 3;
+}
+
+#g {
+    width: 60px;
+    height: 250px;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 5px;
+    position: absolute;
+    left: 685px;
+    top: 250px;
+    cursor: pointer;
+}
+
+#g1 {
+    width: 35px;
+    height: 150px;
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    position: absolute;
+    left: 735px;
+    top: 250px;
+    background-color: black;
+    z-index: 3;
+}
+
+#a {
+    width: 60px;
+    height: 250px;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 5px;
+    position: absolute;
+    left: 755px;
+    top: 250px;
+    cursor: pointer;
+}
+
+#a1 {
+    width: 35px;
+    height: 150px;
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    position: absolute;
+    left: 804px;
+    top: 250px;
+    background-color: black;
+    z-index: 3;
+}
+
+#b {
+    width: 60px;
+    height: 250px;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 5px;
+    position: absolute;
+    left: 825px;
+    top: 250px;
+    cursor: pointer;
+}
+
+
+#c2 {
+    width: 60px;
+    height: 250px;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 5px;
+    position: absolute;
+    left: 895px;
+    top: 250px;
+    cursor: pointer;
+    z-index: 3;
+}
+
+/**
+#b {
+    width: 20px;
+    height: 250px;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 5px;
+    position: absolute;
+    left: 400px;
+    top: 250px;
+
+}
+
+#b {
+    width: 20px;
+    height: 250px;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 5px;
+    position: absolute;
+    left: 400px;
+    top: 250px;
+
+}
+
+#b {
+    width: 20px;
+    height: 250px;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 5px;
+    position: absolute;
+    left: 400px;
+    top: 250px;
+
+}
+*/
+
+
+
+
+#fadeouta {
+    opacity: 0;
+    transition: 5s opacity;
+    font-size: 32px;
+    left: 50%;
+    top: 20%;
+    position: absolute;
+}
+
+
+#fadeoutb {
+    opacity: 0;
+    transition: 5s opacity;
+    font-size: 32px;
+    left: 10%;
+    top: 80%;
+    position: absolute;
+}
+
+#fadeoutc {
+    opacity: 0;
+    transition: 5s opacity;
+    text-align: center;
+    font-size: 32px;
+    left: 30%;
+    top: 15%;
+    position: absolute;
+}
+
+#fadeoutd {
+    opacity: 0;
+    transition: 5s opacity;
+    text-align: center;
+    font-size: 32px;
+    left: 25%;
+    top: 85%;
+    position: absolute;
+}
+
+#fadeoute {
+    opacity: 0;
+    transition: 5s opacity;
+    text-align: center;
+    font-size: 32px;
+    left: 30%;
+    top: 15%;
+    position: absolute;
+}
+
+#fadeoutf {
+    opacity: 0;
+    transition: 5s opacity;
+    text-align: center;
+    font-size: 32px;
+    left: 30%;
+    top: 75%;
+    position: absolute;
+}
+
+#fadeoutg {
+    opacity: 0;
+    transition: 5s opacity;
+    text-align: center;
+    font-size: 32px;
+    left: 30%;
+    top: 15%;
+    position: absolute;
+}
+
+#fadeouta2 {
+    opacity: 0;
+    transition: 5s opacity;
+    text-align: center;
+    font-size: 32px;
+}
+
+#chopin {
+
+    opacity: 0;
+    transition: 8s opacity;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+
+#beethoven {
+    opacity: 0;
+    transition: 5s opacity;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 80%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+
+#brahms {
+    opacity: 0;
+    transition: 5s opacity;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 18%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+
+#debussy {
+    opacity: 0;
+    transition: 8s opacity;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+#albinoni {
+    opacity: 0;
+    transition: 8s opacity;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+#schumann {
+    opacity: 0;
+    transition: 8s opacity;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+#paganini {
+    opacity: 0;
+    transition: 8s opacity;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}

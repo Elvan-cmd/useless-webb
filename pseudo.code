@@ -1,0 +1,44 @@
+
+
+
+If a note was clicked
+
+    if the note is a
+    - play: Robert Schumann - Piano Concerto in A Minor, Op. 54
+    - fade in and out: the name of the music and Chopin's image
+    - change note's color to: #CD5334
+    
+    if the note is b
+    - play: Niccolò Paganini - Violin Concerto No.2 In B Minor
+    - fade in and out: the name of the music and Paganini's image
+    - change note's color to: #FFFFB3
+    
+    if the note is c
+    - play:  Frédéric Chopin - Etude In C Minor, Op. 10, No. 12, “Revolutionary"
+    - fade in and out: the name of the music and Chopin's image 
+    - change note's color to: #002500
+    
+    if the note is d
+    - play: Ludwig van Beethoven - Sonata in D minor Op. 31, No. 2, III movement
+    - fade in and out: the name of the music and Beethoven's image
+    - change note's color to: #929982
+      
+      
+    if the note is e
+     - play: Johannes Brahms - Symphony No.4 in E minor - I. Allegro non troppo
+     - fade in and out: the name of the music and Brahms's image
+     - change note's color to: #EDCBB1
+    
+    
+    if the note is f
+     -  play: Claude Debussy - Reverie in F Major, L. 68
+     - fade in and out: the name of the music and Debussy's image
+     - change note's color to: #B7245C
+      
+      
+    if the note is g
+     - play: Tomaso Albinoni - Adagio in G Minor
+     - fade in and out: the name of the music and Albinoni's image
+     - change note's color to: #7C3238
+        
+    
